@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_gK1DMDnSEfGljukABSMwbg" label="Cap_Talend_V2" language="java" technicalLabel="CAP_TALEND_V2" author="_gK1DMTnSEfGljukABSMwbg" productVersion="Qlik Talend Cloud Enterprise Edition-8.0.1.20260319_1057-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/Edison48/Cap_Aliss.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_gMTp4DnSEfGljukABSMwbg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_gK1DMTnSEfGljukABSMwbg" login="edison.quispillo@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Edison" lastName="Quispillo" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkIDnSEfGljukABSMwbg" login="lcarreyo@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Luis" lastName="Carreyó" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkITnSEfGljukABSMwbg" login="dsalinas@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Dalila" lastName="Salinas" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkIjnSEfGljukABSMwbg" login="icampos@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Iván" lastName="Campos" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkIznSEfGljukABSMwbg" login="kdelarosa@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Ketzaliris" lastName="De La Rosa" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkJDnSEfGljukABSMwbg" login="luvasquez@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Luisa" lastName="Vásquez" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkJTnSEfGljukABSMwbg" login="mtivamosa@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Miguel" lastName="Tivamosa" type="DQ"/>
+  <TalendProperties:User xmi:id="_vmXkJjnSEfGljukABSMwbg" login="alex.pazmino@trial.7w99mome4hhh3af.us.qlikcloud.com" firstName="Alex" lastName="Pazmiño" type="DQ"/>
+</xmi:XMI>
