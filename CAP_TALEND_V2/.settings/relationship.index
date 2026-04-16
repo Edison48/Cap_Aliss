@@ -43,4 +43,19 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_tcELkDnZEfGCB5naSisa5A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
