@@ -1,1 +1,16 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_YN7LIDnfEfGPAbobaipRvQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
