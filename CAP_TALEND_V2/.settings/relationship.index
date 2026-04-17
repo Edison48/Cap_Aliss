@@ -30,6 +30,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_75ydgDqWEfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg - FACTURA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_BY4GADnfEfGoIfPO0LSm6A",
     "version" : "0.1",
     "type" : "job"
@@ -156,6 +183,10 @@
     "id" : "_x7-A8Dp_EfGCqoUANcWqxg",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg - FACTURA",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_2iom4Dp7EfGCqoUANcWqxg - metadata",
     "version" : "Latest",

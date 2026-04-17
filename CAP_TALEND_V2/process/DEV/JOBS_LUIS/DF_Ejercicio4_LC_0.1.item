@@ -114,7 +114,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_2iom4Dp7EfGCqoUANcWqxg" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_2iom4Dp7EfGCqoUANcWqxg - metadata" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_2iom4Dp7EfGCqoUANcWqxg - FACTURA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
@@ -187,9 +187,9 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="CNX_CSV_FACTURA_LC"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+    <metadata connector="FLOW" label="FACTURA" name="tFileInputDelimited_1">
       <column comment="" key="false" length="13" name="NUM_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="CEDULA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CEDULA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="FECHA_EMISION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="AUTORIZACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="MONTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
@@ -197,9 +197,9 @@
       <column comment="" key="false" length="4" name="DESCUENTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="COD_LOCAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
+    <metadata connector="REJECT" label="FACTURA" name="REJECT">
       <column comment="" key="false" length="13" name="NUM_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="CEDULA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CEDULA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="FECHA_EMISION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="AUTORIZACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="MONTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
@@ -268,7 +268,7 @@
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="NUM_FACTURA" type="id_Long" nullable="true"/>
-        <mapperTableEntries name="CEDULA" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CEDULA" type="id_String" nullable="true"/>
         <mapperTableEntries name="FECHA_EMISION" type="id_Date" nullable="true"/>
         <mapperTableEntries name="AUTORIZACION" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="MONTO" type="id_Float" nullable="true"/>
