@@ -45,6 +45,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_IkYg0DqXEfGEjO5ak3yuYA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_RlCzkDqYEfGEjO5ak3yuYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_mX0UYDqXEfGEjO5ak3yuYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_RlCzkDqYEfGEjO5ak3yuYA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_mX0UYDqXEfGEjO5ak3yuYA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_RGV3cDpuEfGCqoUANcWqxg",
     "version" : "0.1",
     "type" : "job"
