@@ -1,5 +1,28 @@
 [ {
   "baseItem" : {
+    "id" : "_BOYX4Dp8EfG-joVXaDCCtA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_lgmZgDqMEfG-joVXaDCCtA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n-1mQDp7EfG-joVXaDCCtA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_lgmZgDqMEfG-joVXaDCCtA - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_n-1mQDp7EfG-joVXaDCCtA - FACTURAS",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_BY4GADnfEfGoIfPO0LSm6A",
     "version" : "0.1",
     "type" : "job"
@@ -59,6 +82,29 @@
     "type" : "property"
   }, {
     "id" : "_MMH7QDnhEfGBC-dWxhApfA - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TZlIwDqXEfG-joVXaDCCtA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_n-1mQDp7EfG-joVXaDCCtA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_pQTu0DpzEfG-joVXaDCCtA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n-1mQDp7EfG-joVXaDCCtA - FACTURAS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_pQTu0DpzEfG-joVXaDCCtA - CLIENTE",
     "version" : "Latest",
     "type" : "schema"
   } ]

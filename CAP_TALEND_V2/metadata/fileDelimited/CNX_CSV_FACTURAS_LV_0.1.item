@@ -4,7 +4,7 @@
   <orgomg.cwm.resource.record:RecordFile xmi:id="_n-2NUTp7EfG-joVXaDCCtA" name="default" dataManager="_n-2NUDp7EfG-joVXaDCCtA">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_n-2NUjp7EfG-joVXaDCCtA" id="_YMyp0Dp7EfG-joVXaDCCtA" label="FACTURAS">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n-2NUzp7EfG-joVXaDCCtA" label="NUM_FACTURA" length="13" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n-2NVDp7EfG-joVXaDCCtA" label="CEDULA" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n-2NVDp7EfG-joVXaDCCtA" label="CEDULA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n-2NVTp7EfG-joVXaDCCtA" label="FECHA_EMISION" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n-2NVjp7EfG-joVXaDCCtA" label="AUTORIZACION" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_n-2NVzp7EfG-joVXaDCCtA" label="MONTO" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
