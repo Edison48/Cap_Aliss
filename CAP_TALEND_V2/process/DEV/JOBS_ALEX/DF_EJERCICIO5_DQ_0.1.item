@@ -244,7 +244,7 @@
         <mapperTableEntries name="DT_CARGA" expression="TalendDate.getCurrentDate() " type="id_Date"/>
         <mapperTableEntries name="CONTACTO" expression="row2.TELEFONO_CASA+&quot; - &quot;+row2.TELEFONO_OFICINA " type="id_String"/>
       </varTables>
-      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="row1.MONTO > 200" activateExpressionFilter="true" activateColumnNameFilter="true" columnNameFilter="">
+      <outputTables sizeState="INTERMEDIATE" name="out1" columnNameFilter="">
         <mapperTableEntries name="NUM_FACTURA" expression="row1.NUM_FACTURA " type="id_Long" nullable="true"/>
         <mapperTableEntries name="FECHA_EMISION" expression="row1.FECHA_EMISION " type="id_Date" nullable="true"/>
         <mapperTableEntries name="COD_LOCAL" expression="row1.COD_LOCAL " type="id_String" nullable="true"/>
@@ -257,7 +257,7 @@
         <mapperTableEntries name="DESCUENTO" expression="row1.DESCUENTO " type="id_Float" nullable="true"/>
         <mapperTableEntries name="ETL_TIMESTAMP" expression="Var.DT_CARGA " type="id_Date"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row1" expressionFilter="row1.MONTO > 200" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="NUM_FACTURA" type="id_Long" nullable="true"/>
         <mapperTableEntries name="CEDULA" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="FECHA_EMISION" type="id_Date" nullable="true"/>
