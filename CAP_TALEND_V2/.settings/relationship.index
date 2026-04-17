@@ -80,6 +80,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_8IQLkDp7EfGgXKv8MercNQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_xpNZ0Dp7EfGgXKv8MercNQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_xpNZ0Dp7EfGgXKv8MercNQ - Factura_KD",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_BOYX4Dp8EfG-joVXaDCCtA",
     "version" : "0.1",
     "type" : "job"
@@ -156,6 +171,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_HOsXsDqAEfGgXKv8MercNQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_bYrfkDqSEfGgXKv8MercNQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_xpNZ0Dp7EfGgXKv8MercNQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_bYrfkDqSEfGgXKv8MercNQ - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xpNZ0Dp7EfGgXKv8MercNQ - Factura_KD",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_IkYg0DqXEfGEjO5ak3yuYA",
     "version" : "0.1",
     "type" : "job"
@@ -193,6 +231,29 @@
     "type" : "property"
   }, {
     "id" : "_pQTu0DpzEfG-joVXaDCCtA - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Qjkk8DqXEfGgXKv8MercNQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MJHDgDnhEfG379pdByptyw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_xpNZ0Dp7EfGgXKv8MercNQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MJHDgDnhEfG379pdByptyw - CLIENTE_KD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xpNZ0Dp7EfGgXKv8MercNQ - Factura_KD",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -303,6 +364,25 @@
     "type" : "property"
   }, {
     "id" : "_SZh4sDnhEfGjrbPecx2cqg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UkpxYDpuEfGgXKv8MercNQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MJHDgDnhEfG379pdByptyw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_cQ7dYDpqEfGE7sIiWRvmxQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MJHDgDnhEfG379pdByptyw - CLIENTE_KD",
     "version" : "Latest",
     "type" : "schema"
   } ]
