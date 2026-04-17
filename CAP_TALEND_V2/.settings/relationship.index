@@ -8,6 +8,10 @@
     "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w - CLIENTE_DQ",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
