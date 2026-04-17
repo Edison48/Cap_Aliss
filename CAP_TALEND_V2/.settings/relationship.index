@@ -8,6 +8,10 @@
     "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w",
     "version" : "Latest",
     "type" : "property"
+  }, {
+    "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w - CLIENTE_DQ",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -64,6 +68,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_RGV3cDpuEfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_UFyEEDpuEfGzmqS653tNVA",
     "version" : "0.1",
     "type" : "job"
@@ -93,6 +116,29 @@
     "type" : "property"
   }, {
     "id" : "_SZh4sDnhEfGjrbPecx2cqg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_VwwsQDp7EfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_x7-A8Dp_EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_x7-A8Dp_EfGCqoUANcWqxg - LOCAL",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -138,6 +184,29 @@
     "type" : "property"
   }, {
     "id" : "_MJHDgDnhEfG379pdByptyw - CLIENTE_KD",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_XQs1ADp7EfGEjO5ak3yuYA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_B68wsDqBEfGEjO5ak3yuYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ITicsDp8EfGEjO5ak3yuYA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_B68wsDqBEfGEjO5ak3yuYA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ITicsDp8EfGEjO5ak3yuYA - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
