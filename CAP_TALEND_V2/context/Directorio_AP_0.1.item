@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_2z-1YDzHEfGCbPlCyWNFgA" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="_2z-1YTzHEfGCbPlCyWNFgA" comment="" name="ctx_Ruta" prompt="ctx_Ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Talend/ALISS/DEV/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2z-1YjzHEfGCbPlCyWNFgA" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_2z-1YzzHEfGCbPlCyWNFgA" comment="" name="ctx_Ruta" prompt="ctx_Ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Talend/ALISS/PROD/"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_r8bOQDzNEfGvRZlP65UcDg" confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter xmi:id="_r8bOQTzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Login" prompt="CNX_SS_DSA_ALX_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="usr_acme"/>
+    <contextParameter xmi:id="_r8bOQjzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Database" prompt="CNX_SS_DSA_ALX_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_r8bOQzzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_AdditionalParams" prompt="CNX_SS_DSA_ALX_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_r8bORDzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Password" prompt="CNX_SS_DSA_ALX_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:i5aSJ+MDlQt9hYCUndc4emqfT7uGCnfdX208s4tCjWcsuhQ="/>
+    <contextParameter xmi:id="_r8bORTzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Port" prompt="CNX_SS_DSA_ALX_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_r8bORjzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Server" prompt="CNX_SS_DSA_ALX_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="23.108.55.228"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_r8bORzzNEfGvRZlP65UcDg" confirmationNeeded="false" hide="false" name="PRO">
+    <contextParameter xmi:id="_r8bOSDzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Login" prompt="CNX_SS_DSA_ALX_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="usr_acme"/>
+    <contextParameter xmi:id="_r8bOSTzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Database" prompt="CNX_SS_DSA_ALX_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSAPRO"/>
+    <contextParameter xmi:id="_r8bOSjzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_AdditionalParams" prompt="CNX_SS_DSA_ALX_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_r8bOSzzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Password" prompt="CNX_SS_DSA_ALX_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GViFaGY6Pb/w3A/VH3GIm/W7CB9/ORxTGoHxob5+tsupSbg="/>
+    <contextParameter xmi:id="_r8bOTDzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Port" prompt="CNX_SS_DSA_ALX_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_r8bOTTzNEfGvRZlP65UcDg" comment="" name="CNX_SS_DSA_ALX_Server" prompt="CNX_SS_DSA_ALX_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="23.108.55.228"/>
+  </talendfile:ContextType>
+</xmi:XMI>

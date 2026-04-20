@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="Contexto Nombre" name="ctxNombre" prompt="ctxNombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Aliss" internalId="_62nEsDzEEfGCbPlCyWNFgA"/>
-    <contextParameter comment="Contexto Edad" name="ctx_Edad" prompt="ctx_Edad?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="20" internalId="_62nEsTzEEfGCbPlCyWNFgA"/>
-    <contextParameter comment="Contexto Estado" name="ctx_Estado" prompt="ctx_Estado?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_62nEsjzEEfGCbPlCyWNFgA"/>
-    <contextParameter comment="" name="ctx_Ruta" prompt="ctx_Ruta?" promptNeeded="false" repositoryContextId="_2zo3IDzHEfGCbPlCyWNFgA" type="id_Directory" value="C:/Talend/ALISS/DEV/" internalId="_Q715oDzJEfGCbPlCyWNFgA"/>
+    <contextParameter comment="Contexto Nombre" name="ctx_Nombre" prompt="ctx_Nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Aliss" internalId="_VoqK4DzFEfGU6OHQSo85gw"/>
+    <contextParameter comment="Contexto Edad" name="ctx_Edad" prompt="ctx_Edad?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="20" internalId="_VoqK4TzFEfGU6OHQSo85gw"/>
+    <contextParameter comment="Contexto Estado" name="ctx_Estado" prompt="ctx_Estado?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_VoqK4jzFEfGU6OHQSo85gw"/>
+    <contextParameter comment="Directorio" name="ctx_Ruta" prompt="ctx_Ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" internalId="_AmXDgDzKEfGU6OHQSo85gw"/>
   </context>
-  <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="Contexto Nombre" name="ctxNombre" prompt="ctxNombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Grupo Aliss" internalId="_62nEsDzEEfGCbPlCyWNFgA"/>
-    <contextParameter comment="Contexto Edad" name="ctx_Edad" prompt="ctx_Edad?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="30" internalId="_62nEsTzEEfGCbPlCyWNFgA"/>
-    <contextParameter comment="Contexto Estado" name="ctx_Estado" prompt="ctx_Estado?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_62nEsjzEEfGCbPlCyWNFgA"/>
-    <contextParameter comment="" name="ctx_Ruta" prompt="ctx_Ruta?" promptNeeded="false" repositoryContextId="_2zo3IDzHEfGCbPlCyWNFgA" type="id_Directory" value="C:/Talend/ALISS/PROD/" internalId="_Q715oTzJEfGCbPlCyWNFgA"/>
+  <context confirmationNeeded="false" hide="false" name="PRO">
+    <contextParameter comment="Contexto Nombre" name="ctx_Nombre" prompt="ctx_Nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Grupo Aliss" internalId="_VoqK4DzFEfGU6OHQSo85gw"/>
+    <contextParameter comment="Contexto Edad" name="ctx_Edad" prompt="ctx_Edad?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="30" internalId="_VoqK4TzFEfGU6OHQSo85gw"/>
+    <contextParameter comment="Contexto Estado" name="ctx_Estado" prompt="ctx_Estado?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_VoqK4jzFEfGU6OHQSo85gw"/>
+    <contextParameter comment="Directorio" name="ctx_Ruta" prompt="ctx_Ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="" internalId="_AmXDgTzKEfGU6OHQSo85gw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -110,23 +110,23 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="200">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="80" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="String foo = &quot;bar&quot;;&#xD;&#xA;int edad= 18;&#xD;&#xA;boolean estado =true;&#xD;&#xA;edad=edad+5;&#xD;&#xA;System.out.println(&quot;*****************Variables locales******************&quot;);&#xD;&#xA;System.out.println(&quot;Variable food=&quot;+&quot;: &quot;+foo);&#xD;&#xA;System.out.println(&quot;Variable edad=&quot;+&quot;: &quot; +edad);&#xD;&#xA;System.out.println(&quot;Variable estado=&quot;+&quot;: &quot;+estado);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;*****************Variables globales******************&quot;);&#xD;&#xA;globalMap.put(&quot;V_Nombre&quot;,&quot;Alex&quot;);&#xD;&#xA;globalMap.put(&quot;V_Edad&quot;,18);&#xD;&#xA;globalMap.put(&quot;V_Estado&quot;,true);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Variable V_Nombre&quot;+&quot;: &quot;+ (String)globalMap.get(&quot;V_Nombre&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Edad&quot;+&quot;: &quot;+ (int)globalMap.get(&quot;V_Edad&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Estado&quot;+&quot;: &quot;+ (Boolean)globalMap.get(&quot;V_Estado&quot;));"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="String foo = &quot;bar&quot;;&#xD;&#xA;int edad = 18;&#xD;&#xA;boolean estado = true;&#xD;&#xA;&#xD;&#xA;edad=edad+5;&#xD;&#xA;foo=&quot;comida&quot;;&#xD;&#xA;estado=false;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;***********VARIABLES LOCALES************&quot;);&#xD;&#xA;System.out.println(&quot;Variable foo=&quot; +foo);&#xD;&#xA;System.out.println(&quot;Variable edad=&quot; +edad);&#xD;&#xA;System.out.println(&quot;Variable estado=&quot; +estado);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;***********VARIABLES GLOBALES************&quot;);&#xD;&#xA;globalMap.put(&quot;V_Nombre&quot;,&quot;LUISA&quot;);&#xD;&#xA;globalMap.put(&quot;V_Edad&quot;,18);&#xD;&#xA;globalMap.put(&quot;V_Estado&quot;,true);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Variable V_Nombre=&quot;+ (String)globalMap.get(&quot;V_Nombre&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Edad=&quot;+ (int)globalMap.get(&quot;V_Edad&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Estado=&quot;+ (boolean)globalMap.get(&quot;V_Estado&quot;));"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="360" posY="200">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="globalMap.put(&quot;V_Edad&quot;, 29);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Variable V_Nombre&quot;+&quot;: &quot;+ (String)globalMap.get(&quot;V_Nombre&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Edad&quot;+&quot;: &quot;+ (int)globalMap.get(&quot;V_Edad&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Estado&quot;+&quot;: &quot;+ (Boolean)globalMap.get(&quot;V_Estado&quot;));"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="globalMap.put(&quot;V_Edad&quot;, 28);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Variable V_Nombre= &quot; +(String)globalMap.get(&quot;V_Nombre&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Edad= &quot; +(int)globalMap.get(&quot;V_Edad&quot;));&#xD;&#xA;System.out.println(&quot;Variable V_Estado= &quot; +(boolean)globalMap.get(&quot;V_Estado&quot;));"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="520" posY="200">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="520" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;*****************Contextos del Job*********************&quot;);&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot; +context.ctxNombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot; +context.ctx_Edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_Estado);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;*****************Contextos del Job Modificado*********************&quot;);&#xD;&#xA;&#xD;&#xA;context.ctxNombre=&quot;Alex&quot;;&#xD;&#xA;context.ctx_Edad=29;&#xD;&#xA;context.ctx_Estado=false;&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot; +context.ctxNombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot; +context.ctx_Edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_Estado);&#xD;&#xA;System.out.println(&quot;Contexto Ruta: &quot;+context.ctx_Ruta);"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;**********CONTEXTOS DEL JOB*********&quot;);&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot;+context.ctx_Nombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot;+context.ctx_Edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_Estado);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;**********CONTEXTOS DEL JOB MODIFICADO*********&quot;);&#xD;&#xA;context.ctx_Nombre= &quot;Luisa&quot;;&#xD;&#xA;context.ctx_Edad= 28;&#xD;&#xA;context.ctx_Estado= true;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot;+context.ctx_Nombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot;+context.ctx_Edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_Estado);&#xD;&#xA;System.out.println(&quot;Contexto Ruta:&quot;+context.ctx_Ruta);"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>
@@ -139,17 +139,17 @@
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="93;174;241"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="93;174;241"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="93;174;241"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
 </talendfile:ProcessType>
