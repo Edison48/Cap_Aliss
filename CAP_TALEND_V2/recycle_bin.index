@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/DEV/JOB_LUISA</deletedFolders>
+  <deletedItems id="_-zhe0DzHEfG9T40udlz7DA" path="" type="CONTEXT"/>
   <deletedItems id="_x7-A8Dp_EfGCqoUANcWqxg" path="CNX_LUIS" type="METADATA_FILE_DELIMITED"/>
   <deletedItems id="_yy7eUDqkEfG0baXcvH6FRg" path="DEV/JOBS_DALILA" type="PROCESS"/>
 </recyclebin:RecycleBin>
