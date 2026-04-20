@@ -45,6 +45,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_5QxqIDzWEfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_6IsyADqkEfGgXKv8MercNQ",
     "version" : "0.1",
     "type" : "job"
@@ -590,13 +601,36 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
     "id" : "_MG6rIDnhEfGCB5naSisa5A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w",
     "version" : "Latest",
     "type" : "property"
   }, {
     "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_qHXcMDzwEfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "CAP_TALEND_V2:_5QxqIDzWEfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "job"
   } ]
 }, {
   "baseItem" : {
