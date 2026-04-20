@@ -1,10 +1,109 @@
 [ {
   "baseItem" : {
+    "id" : "_-PNcwDqWEfGzpMB26XyJsg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MNU1IDnhEfGoIfPO0LSm6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XRSOYDp8EfGzpMB26XyJsg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MNU1IDnhEfGoIfPO0LSm6A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_XRSOYDp8EfGzpMB26XyJsg - FACTURA_MT",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1H0SEDqkEfGzpMB26XyJsg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_79H5cDzHEfGzpMB26XyJsg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5Ls64Dp7EfGzpMB26XyJsg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_XRSOYDp8EfGzpMB26XyJsg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_c-qrIDqAEfGzpMB26XyJsg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XRSOYDp8EfGzpMB26XyJsg - FACTURA_MT",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_c-qrIDqAEfGzpMB26XyJsg - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_BY4GADnfEfGoIfPO0LSm6A",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_MNU1IDnhEfGoIfPO0LSm6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MNU1IDnhEfGoIfPO0LSm6A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TLKO4DpuEfGzpMB26XyJsg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MNU1IDnhEfGoIfPO0LSm6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_cQ7dYDpqEfGE7sIiWRvmxQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MNU1IDnhEfGoIfPO0LSm6A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_UiZ7MDzKEfGzpMB26XyJsg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_79H5cDzHEfGzpMB26XyJsg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
     "id" : "_MNU1IDnhEfGoIfPO0LSm6A",
     "version" : "Latest",
     "type" : "property"
