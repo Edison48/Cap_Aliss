@@ -1,11 +1,11 @@
 {
-  "itemId" : "_5FTa8DzLEfGU6OHQSo85gw",
+  "itemId" : "_mhNwgDzSEfGORoafqPapZg",
   "contextList" : [ {
     "contextName" : "PROD",
-    "repoId" : "_pFCjsDzIEfGU6OHQSo85gw",
+    "repoId" : "_2zo3IDzHEfGCbPlCyWNFgA",
     "parameterList" : [ {
-      "id" : "_pFXT0zzIEfGU6OHQSo85gw",
-      "name" : "ctx_ruta"
+      "id" : "_2z-1YzzHEfGCbPlCyWNFgA",
+      "name" : "ctx_Ruta"
     } ]
   }, {
     "contextName" : "PROD",
@@ -31,10 +31,10 @@
     } ]
   }, {
     "contextName" : "DEV",
-    "repoId" : "_pFCjsDzIEfGU6OHQSo85gw",
+    "repoId" : "_2zo3IDzHEfGCbPlCyWNFgA",
     "parameterList" : [ {
-      "id" : "_pFXT0TzIEfGU6OHQSo85gw",
-      "name" : "ctx_ruta"
+      "id" : "_2z-1YTzHEfGCbPlCyWNFgA",
+      "name" : "ctx_Ruta"
     } ]
   }, {
     "contextName" : "DEV",
