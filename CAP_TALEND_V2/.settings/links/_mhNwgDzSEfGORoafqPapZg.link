@@ -1,0 +1,62 @@
+{
+  "itemId" : "_mhNwgDzSEfGORoafqPapZg",
+  "contextList" : [ {
+    "contextName" : "PROD",
+    "repoId" : "_2zo3IDzHEfGCbPlCyWNFgA",
+    "parameterList" : [ {
+      "id" : "_2z-1YzzHEfGCbPlCyWNFgA",
+      "name" : "ctx_Ruta"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "parameterList" : [ {
+      "id" : "_r8bORTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Port"
+    }, {
+      "id" : "_r8bOQzzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_AdditionalParams"
+    }, {
+      "id" : "_r8bORjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Server"
+    }, {
+      "id" : "_r8bOQTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Login"
+    }, {
+      "id" : "_r8bORDzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Password"
+    }, {
+      "id" : "_r8bOQjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Database"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_2zo3IDzHEfGCbPlCyWNFgA",
+    "parameterList" : [ {
+      "id" : "_2z-1YTzHEfGCbPlCyWNFgA",
+      "name" : "ctx_Ruta"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "parameterList" : [ {
+      "id" : "_r8bORTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Port"
+    }, {
+      "id" : "_r8bOQzzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_AdditionalParams"
+    }, {
+      "id" : "_r8bORjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Server"
+    }, {
+      "id" : "_r8bOQTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Login"
+    }, {
+      "id" : "_r8bORDzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Password"
+    }, {
+      "id" : "_r8bOQjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Database"
+    } ]
+  } ]
+}
