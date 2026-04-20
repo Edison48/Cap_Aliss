@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="" name="ctx_FechaCarga" prompt="ctx_FechaCarga?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;2026-04-01&quot;" internalId="_JnHNIDzcEfGORoafqPapZg"/>
-    <contextParameter comment="" name="ctx_inicio" prompt="ctx_inicio?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_9LbqYDztEfGORoafqPapZg"/>
-    <contextParameter comment="" name="ctx_fin" prompt="ctx_fin?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3" internalId="_9LbqYTztEfGORoafqPapZg"/>
+    <contextParameter comment="" name="ctx_FechaCarga" prompt="ctx_FechaCarga?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YPcIcDzcEfGCqoUANcWqxg"/>
+    <contextParameter comment="" name="ctx_inicio" prompt="ctx_inicio?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_q_j6YDzuEfGCqoUANcWqxg"/>
+    <contextParameter comment="" name="ctx_fin" prompt="ctx_fin?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3" internalId="_q_j6YTzuEfGCqoUANcWqxg"/>
   </context>
-  <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="" name="ctx_FechaCarga" prompt="ctx_FechaCarga?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;2026-04-01&quot;" internalId="_JnHNIDzcEfGORoafqPapZg"/>
-    <contextParameter comment="" name="ctx_inicio" prompt="ctx_inicio?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_9LbqYDztEfGORoafqPapZg"/>
-    <contextParameter comment="" name="ctx_fin" prompt="ctx_fin?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="4" internalId="_9LbqYTztEfGORoafqPapZg"/>
+  <context confirmationNeeded="false" hide="false" name="PRO">
+    <contextParameter comment="" name="ctx_FechaCarga" prompt="ctx_FechaCarga?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_YPcIcDzcEfGCqoUANcWqxg"/>
+    <contextParameter comment="" name="ctx_inicio" prompt="ctx_inicio?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_q_j6YDzuEfGCqoUANcWqxg"/>
+    <contextParameter comment="" name="ctx_fin" prompt="ctx_fin?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="4" internalId="_q_j6YTzuEfGCqoUANcWqxg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -108,58 +108,58 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="120">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;***************** INICIO DEL JOB **********************&quot;);&#xD;&#xA;LocalDate ayer = LocalDate.now().minusDays(1);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Fecha del Día anterior: &quot;+ayer);&#xD;&#xA;&#xD;&#xA;context.ctx_FechaCarga=ayer.toString();&#xD;&#xA;&#xD;&#xA;globalMap.put(&quot;V_FechaAyer&quot;, ayer.toString());&#xD;&#xA;&#xD;&#xA;"/>
-    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.time.LocalDate;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;**********INICIO DEL JOB**********&quot;);&#xD;&#xA;java.time.LocalDate ayer = java.time.LocalDate.now().minusDays(1);&#xD;&#xA;java.time.format.DateTimeFormatter formato = java.time.format.DateTimeFormatter.ofPattern(&quot;YYYY-MM-dd&quot;);&#xD;&#xA;String fechaFormateada = ayer.format(formato);&#xD;&#xA;globalMap.put(&quot;V_FechaCarga&quot;, fechaFormateada);&#xD;&#xA;context.ctx_FechaCarga=fechaFormateada;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="120">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;********************* FIN DEL PROCESO *********************&quot;);&#xD;&#xA;System.out.println(&quot;***************** FIN DEL JOB **********************&quot;);&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;**********FIN DEL JOB**********&quot;);"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="360" posY="320">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="&#xD;&#xA;System.out.println(&quot;********************* INICIO DEL PROCESO *********************&quot;);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;V_FechaCarga: &quot;+(String)globalMap.get(&quot;V_FechaAyer&quot;));&#xD;&#xA;System.out.println(&quot;Contexto Fecha de Carga: &quot;+context.ctx_FechaCarga);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;**********INICIO DEL PROCESO**********&quot;);&#xD;&#xA;System.out.println(&quot;Fecha de Carga (Variable): &quot;+(String)globalMap.get(&quot;V_FechaCarga&quot;));&#xD;&#xA;//System.out.println(&quot;Fecha de Carga (Contexto): &quot;+ context.ctx_FechaCarga);&#xD;&#xA;"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>
   </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="120">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="120">
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tLoop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="320">
+  <node componentName="tLoop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLoop_1" show="false"/>
     <elementParameter field="RADIO" name="FORLOOP" value="false"/>
     <elementParameter field="RADIO" name="WHILELOOP" value="true"/>
-    <elementParameter field="TEXT" name="FROM" value="context.ctx_inicio=0" show="false"/>
+    <elementParameter field="TEXT" name="FROM" value="context.ctx_inicio" show="false"/>
     <elementParameter field="TEXT" name="TO" value="context.ctx_fin" show="false"/>
     <elementParameter field="TEXT" name="STEP" value="context.ctx_inicio++" show="false"/>
     <elementParameter field="CHECK" name="INCREASE" value="true" show="false"/>
     <elementParameter field="TEXT" name="DECLARATION" value="context.ctx_inicio=0"/>
-    <elementParameter field="TEXT" name="CONDITION" value="context.ctx_inicio&lt;context.ctx_fin"/>
+    <elementParameter field="TEXT" name="CONDITION" value="context.ctx_inicio &lt; context.ctx_fin"/>
     <elementParameter field="TEXT" name="ITERATION" value="context.ctx_inicio++"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="760" posY="320">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Contexto Inicio: &quot;+context.ctx_inicio);&#xD;&#xA;&#xD;&#xA;Thread.sleep(1000);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Contexto Inicio: &quot;+context.ctx_inicio);&#xD;&#xA;Thread.sleep(1000);&#xD;&#xA;"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_4"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="760" posY="440">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_5" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;**********FIN DEL PROCESO**********&quot;);"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_5"/>
