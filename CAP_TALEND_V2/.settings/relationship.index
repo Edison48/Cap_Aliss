@@ -469,6 +469,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_GIb2AD28EfGU0Pu19EyZaA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_v8HaQD26EfGU0Pu19EyZaA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_v8HaQD26EfGU0Pu19EyZaA - SHOPSALES",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_HOsXsDqAEfGgXKv8MercNQ",
     "version" : "0.1",
     "type" : "job"
@@ -1516,6 +1531,29 @@
     "type" : "property"
   }, {
     "id" : "_nGJeADprEfGLXfrMAOiJ8w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wHaWMD24EfGU0Pu19EyZaA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_2KzmkD25EfGU0Pu19EyZaA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_v8HaQD26EfGU0Pu19EyZaA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_2KzmkD25EfGU0Pu19EyZaA - PRODUCTSALES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_v8HaQD26EfGU0Pu19EyZaA - SHOPSALES",
     "version" : "Latest",
     "type" : "schema"
   } ]
