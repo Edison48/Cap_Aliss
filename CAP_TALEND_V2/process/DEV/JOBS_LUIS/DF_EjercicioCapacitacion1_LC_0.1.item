@@ -4,11 +4,13 @@
     <contextParameter comment="Contexto Nombre." name="ctx_nombre" prompt="ctx_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Aliss" internalId="_lt4XcDzEEfGCqoUANcWqxg"/>
     <contextParameter comment="Contexto Edad." name="ctx_edad" prompt="ctx_edad?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="20" internalId="_lt4XcTzEEfGCqoUANcWqxg"/>
     <contextParameter comment="Contexto Estado." name="ctx_estado" prompt="ctx_estado?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_lt4XcjzEEfGCqoUANcWqxg"/>
+    <contextParameter comment="" name="ctx_ruta" prompt="ctx_ruta?" promptNeeded="false" repositoryContextId="_E2-PADzIEfGCqoUANcWqxg" type="id_Directory" value="C:/Users/lcarreyo/Downloads/Talend/DEV/" internalId="_BDm1oDzJEfGCqoUANcWqxg"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="PROD">
     <contextParameter comment="Contexto Nombre." name="ctx_nombre" prompt="ctx_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Grupo Aliss" internalId="_lt4XcDzEEfGCqoUANcWqxg"/>
     <contextParameter comment="Contexto Edad." name="ctx_edad" prompt="ctx_edad?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="30" internalId="_lt4XcTzEEfGCqoUANcWqxg"/>
     <contextParameter comment="Contexto Estado." name="ctx_estado" prompt="ctx_estado?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_lt4XcjzEEfGCqoUANcWqxg"/>
+    <contextParameter comment="" name="ctx_ruta" prompt="ctx_ruta?" promptNeeded="false" repositoryContextId="_E2-PADzIEfGCqoUANcWqxg" type="id_Directory" value="C:/Users/lcarreyo/Downloads/Talend/DEV/" internalId="_BDm1oTzJEfGCqoUANcWqxg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -124,7 +126,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;***********CONTEXTOS DEL JOB***********&quot;);&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot;+context.ctx_nombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot;+context.ctx_edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_estado);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;***********CONTEXTOS DEL JOB MODIFICADO***********&quot;);&#xD;&#xA;context.ctx_nombre=&quot;Luis&quot;;&#xD;&#xA;context.ctx_edad=25;&#xD;&#xA;context.ctx_estado=true;&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot;+context.ctx_nombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot;+context.ctx_edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_estado);"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;***********CONTEXTOS DEL JOB***********&quot;);&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot;+context.ctx_nombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot;+context.ctx_edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_estado);&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;***********CONTEXTOS DEL JOB MODIFICADO***********&quot;);&#xD;&#xA;context.ctx_nombre=&quot;Luis&quot;;&#xD;&#xA;context.ctx_edad=25;&#xD;&#xA;context.ctx_estado=true;&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;Contexto Nombre: &quot;+context.ctx_nombre);&#xD;&#xA;System.out.println(&quot;Contexto Edad: &quot;+context.ctx_edad);&#xD;&#xA;System.out.println(&quot;Contexto Estado: &quot;+context.ctx_estado);&#xD;&#xA;System.out.println(&quot;Contexto Ruta: &quot;+context.ctx_ruta);"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>

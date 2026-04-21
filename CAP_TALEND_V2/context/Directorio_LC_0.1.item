@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_E3hooDzIEfGCqoUANcWqxg" confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter xmi:id="_E3hooTzIEfGCqoUANcWqxg" comment="" name="ctx_ruta" prompt="ctx_ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/lcarreyo/Downloads/Talend/DEV/BaseDeDatosERP/"/>
+    <contextParameter xmi:id="_E3hooTzIEfGCqoUANcWqxg" comment="" name="ctx_ruta" prompt="ctx_ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/lcarreyo/Downloads/Talend/DEV/"/>
   </talendfile:ContextType>
-  <talendfile:ContextType xmi:id="_PqW5EDzIEfGCqoUANcWqxg" confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter xmi:id="_PqW5ETzIEfGCqoUANcWqxg" comment="" name="ctx_ruta" prompt="ctx_ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/lcarreyo/Downloads/Talend/PROD/"/>
+  <talendfile:ContextType xmi:id="_PqW5EDzIEfGCqoUANcWqxg" confirmationNeeded="false" hide="false" name="PRO">
+    <contextParameter xmi:id="_PqW5ETzIEfGCqoUANcWqxg" comment="" name="ctx_ruta" prompt="ctx_ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/lcarreyo/Downloads/Talend/PRO/"/>
   </talendfile:ContextType>
 </xmi:XMI>

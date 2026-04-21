@@ -1,0 +1,91 @@
+{
+  "itemId" : "_mG2z8DzLEfGzTdBr8BSnuQ",
+  "contextList" : [ {
+    "contextName" : "prod",
+    "repoId" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "parameterList" : [ {
+      "id" : "_r8bOQzzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_AdditionalParams"
+    }, {
+      "id" : "_r8bOQjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Database"
+    }, {
+      "id" : "_r8bOQTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Login"
+    }, {
+      "id" : "_r8bORDzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Password"
+    }, {
+      "id" : "_r8bORTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Port"
+    }, {
+      "id" : "_r8bORjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Server"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_LW9xQDzIEfG9T40udlz7DA",
+    "parameterList" : [ {
+      "id" : "_-0KYAjzHEfG9T40udlz7DA",
+      "name" : "ctx_Ruta"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "parameterList" : [ {
+      "id" : "_r8bOQzzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_AdditionalParams"
+    }, {
+      "id" : "_r8bOQjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Database"
+    }, {
+      "id" : "_r8bOQTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Login"
+    }, {
+      "id" : "_r8bORDzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Password"
+    }, {
+      "id" : "_r8bORTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Port"
+    }, {
+      "id" : "_r8bORjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Server"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_LW9xQDzIEfG9T40udlz7DA",
+    "parameterList" : [ {
+      "id" : "_-0KYADzHEfG9T40udlz7DA",
+      "name" : "ctx_Ruta"
+    } ]
+  }, {
+    "contextName" : "PRO",
+    "repoId" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "parameterList" : [ {
+      "id" : "_r8bOSjzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_AdditionalParams"
+    }, {
+      "id" : "_r8bOSTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Database"
+    }, {
+      "id" : "_r8bOSDzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Login"
+    }, {
+      "id" : "_r8bOSzzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Password"
+    }, {
+      "id" : "_r8bOTDzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Port"
+    }, {
+      "id" : "_r8bOTTzNEfGvRZlP65UcDg",
+      "name" : "CNX_SS_DSA_ALX_Server"
+    } ]
+  }, {
+    "contextName" : "PRO",
+    "repoId" : "_LW9xQDzIEfG9T40udlz7DA",
+    "parameterList" : [ {
+      "id" : "_-0KYADzHEfG9T40udlz7DA",
+      "name" : "ctx_Ruta"
+    } ]
+  } ]
+}
