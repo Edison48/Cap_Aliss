@@ -18,7 +18,7 @@
   </context>
   <context confirmationNeeded="false" hide="false" name="PRO">
     <contextParameter comment="" name="CNX_SS_DSA_ALX_Login" prompt="CNX_SS_DSA_ALX_Login?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="usr_acme" internalId="_3DlI7DzNEfGvRZlP65UcDg"/>
-    <contextParameter comment="" name="CNX_SS_DSA_ALX_Database" prompt="CNX_SS_DSA_ALX_Database?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="DSADEV" internalId="_3DlI7TzNEfGvRZlP65UcDg"/>
+    <contextParameter comment="" name="CNX_SS_DSA_ALX_Database" prompt="CNX_SS_DSA_ALX_Database?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="DSAPRO" internalId="_3DlI7TzNEfGvRZlP65UcDg"/>
     <contextParameter comment="" name="CNX_SS_DSA_ALX_AdditionalParams" prompt="CNX_SS_DSA_ALX_AdditionalParams?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_3DlI7jzNEfGvRZlP65UcDg"/>
     <contextParameter comment="" name="CNX_SS_DSA_ALX_Password" prompt="CNX_SS_DSA_ALX_Password?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_Password" value="enc:system.encryption.key.v1:bNMQ+8sj7K/fmHVmDcUGFCBf5oP2q5PigaJQ4V2d/r/C6Ns=" internalId="_3DlI7zzNEfGvRZlP65UcDg"/>
     <contextParameter comment="" name="CNX_SS_DSA_ALX_Port" prompt="CNX_SS_DSA_ALX_Port?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="3306" internalId="_3DlI8DzNEfGvRZlP65UcDg"/>
