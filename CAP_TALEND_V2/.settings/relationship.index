@@ -400,6 +400,44 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_FfkfMD28EfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ZXcTcD26EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZXcTcD26EfGzTdBr8BSnuQ - SHOPSALES",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HElxsD27EfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ZXcTcD26EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_mySkcD25EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZXcTcD26EfGzTdBr8BSnuQ - SHOPSALES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_mySkcD25EfGzTdBr8BSnuQ - PRODUCTSALES",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_HOsXsDqAEfGgXKv8MercNQ",
     "version" : "0.1",
     "type" : "job"
@@ -1095,6 +1133,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_ZJ7NID3AEfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "__bPBQDzWEfG6ydnbd6Eghg",
     "version" : "0.1",
     "type" : "job"
@@ -1436,6 +1489,41 @@
     "type" : "property"
   }, {
     "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ts5dwD3HEfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_LW9xQDzIEfG9T40udlz7DA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_7fpb8D3HEfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dIoRsDp7EfGzmqS653tNVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7fpb8D3HEfGzTdBr8BSnuQ - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dIoRsDp7EfGzmqS653tNVA - FACTURAS_IC",
     "version" : "Latest",
     "type" : "schema"
   } ]
