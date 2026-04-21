@@ -23,6 +23,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_01800D2rEfGvRZlP65UcDg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsDq0DqBEfGTj_zqGyZV1A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tWH3MDp_EfGTj_zqGyZV1A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_FsDq0DqBEfGTj_zqGyZV1A - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tWH3MDp_EfGTj_zqGyZV1A - FACTURA",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_0HIrQDpvEfGslJZ6un-VcA",
     "version" : "0.1",
     "type" : "job"
