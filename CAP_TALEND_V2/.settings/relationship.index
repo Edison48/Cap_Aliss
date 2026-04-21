@@ -1431,6 +1431,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_o_ZKoD24EfGcVIVmaZ8DZQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_DOTSED26EfGcVIVmaZ8DZQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_FsKmMD27EfGcVIVmaZ8DZQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DOTSED26EfGcVIVmaZ8DZQ - PRODUCTSALES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_FsKmMD27EfGcVIVmaZ8DZQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_qHXcMDzwEfGzTdBr8BSnuQ",
     "version" : "0.1",
     "type" : "job"
