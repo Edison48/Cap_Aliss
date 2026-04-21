@@ -431,6 +431,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_DwAmED28EfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_75lR0D26EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_75lR0D26EfGCqoUANcWqxg - ShopSales",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_EDK24DzxEfGU6OHQSo85gw",
     "version" : "0.1",
     "type" : "job"
@@ -1160,6 +1175,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_Z2IL0D3AEfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "__bPBQDzWEfG6ydnbd6Eghg",
     "version" : "0.1",
     "type" : "job"
@@ -1491,6 +1521,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_s3SCMD24EfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_10EhkD25EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_75lR0D26EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_10EhkD25EfGCqoUANcWqxg - ProductSales",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_75lR0D26EfGCqoUANcWqxg - ShopSales",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_tcELkDnZEfGCB5naSisa5A",
     "version" : "0.1",
     "type" : "job"
@@ -1556,6 +1609,41 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xJpRcD3HEfGCqoUANcWqxg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_E2-PADzIEfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_x7-A8Dp_EfGCqoUANcWqxg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_2iom4Dp7EfGCqoUANcWqxg - FACTURA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Mh8aQDnhEfGPAbobaipRvQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_x7-A8Dp_EfGCqoUANcWqxg - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
