@@ -18,7 +18,7 @@
   </context>
   <context confirmationNeeded="false" hide="false" name="PRO">
     <contextParameter comment="" name="CNX_SS_DSA_ALX_Login" prompt="CNX_SS_DSA_ALX_Login?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="usr_acme" internalId="_3tQ_HDzNEfGvRZlP65UcDg"/>
-    <contextParameter comment="" name="CNX_SS_DSA_ALX_Database" prompt="CNX_SS_DSA_ALX_Database?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="DSADEV" internalId="_3tQ_HTzNEfGvRZlP65UcDg"/>
+    <contextParameter comment="" name="CNX_SS_DSA_ALX_Database" prompt="CNX_SS_DSA_ALX_Database?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="DSAPRO" internalId="_3tQ_HTzNEfGvRZlP65UcDg"/>
     <contextParameter comment="" name="CNX_SS_DSA_ALX_AdditionalParams" prompt="CNX_SS_DSA_ALX_AdditionalParams?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_3tQ_HjzNEfGvRZlP65UcDg"/>
     <contextParameter comment="" name="CNX_SS_DSA_ALX_Password" prompt="CNX_SS_DSA_ALX_Password?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_Password" value="enc:system.encryption.key.v1:J5mOoaLiLVuU6gph6FZhqjgZmlxswnxnexxCfIqpVNtoYhs=" internalId="_3tQ_HzzNEfGvRZlP65UcDg"/>
     <contextParameter comment="" name="CNX_SS_DSA_ALX_Port" prompt="CNX_SS_DSA_ALX_Port?" promptNeeded="false" repositoryContextId="_r8HsQDzNEfGvRZlP65UcDg" type="id_String" value="3306" internalId="_3tQ_IDzNEfGvRZlP65UcDg"/>
@@ -320,11 +320,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.CNX_SS_DSA_ALX_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.CNX_SS_DSA_ALX_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.CNX_SS_DSA_ALX_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.CNX_SS_DSA_ALX_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="context.CNX_SS_DSA_ALX_Password"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;23.108.55.228&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DSADEV&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;usr_acme&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N4m/dB8nbq9nrlb48LIre1t7DGw/hPl3wUDAkVNULvImwWCPpQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CLIENTE_IC&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -333,7 +333,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.CNX_SS_DSA_ALX_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
