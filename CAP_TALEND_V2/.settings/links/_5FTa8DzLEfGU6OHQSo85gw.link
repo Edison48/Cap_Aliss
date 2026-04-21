@@ -1,32 +1,32 @@
 {
   "itemId" : "_5FTa8DzLEfGU6OHQSo85gw",
   "contextList" : [ {
-    "contextName" : "PROD",
+    "contextName" : "PRO",
     "repoId" : "_pFCjsDzIEfGU6OHQSo85gw",
     "parameterList" : [ {
       "id" : "_pFXT0zzIEfGU6OHQSo85gw",
-      "name" : "ctx_ruta"
+      "name" : "ctx_Ruta"
     } ]
   }, {
-    "contextName" : "PROD",
+    "contextName" : "PRO",
     "repoId" : "_r8HsQDzNEfGvRZlP65UcDg",
     "parameterList" : [ {
-      "id" : "_r8bORTzNEfGvRZlP65UcDg",
+      "id" : "_r8bOTDzNEfGvRZlP65UcDg",
       "name" : "CNX_SS_DSA_ALX_Port"
     }, {
-      "id" : "_r8bOQzzNEfGvRZlP65UcDg",
+      "id" : "_r8bOSjzNEfGvRZlP65UcDg",
       "name" : "CNX_SS_DSA_ALX_AdditionalParams"
     }, {
-      "id" : "_r8bORjzNEfGvRZlP65UcDg",
+      "id" : "_r8bOTTzNEfGvRZlP65UcDg",
       "name" : "CNX_SS_DSA_ALX_Server"
     }, {
-      "id" : "_r8bOQTzNEfGvRZlP65UcDg",
+      "id" : "_r8bOSDzNEfGvRZlP65UcDg",
       "name" : "CNX_SS_DSA_ALX_Login"
     }, {
-      "id" : "_r8bORDzNEfGvRZlP65UcDg",
+      "id" : "_r8bOSzzNEfGvRZlP65UcDg",
       "name" : "CNX_SS_DSA_ALX_Password"
     }, {
-      "id" : "_r8bOQjzNEfGvRZlP65UcDg",
+      "id" : "_r8bOSTzNEfGvRZlP65UcDg",
       "name" : "CNX_SS_DSA_ALX_Database"
     } ]
   }, {
@@ -34,7 +34,7 @@
     "repoId" : "_pFCjsDzIEfGU6OHQSo85gw",
     "parameterList" : [ {
       "id" : "_pFXT0TzIEfGU6OHQSo85gw",
-      "name" : "ctx_ruta"
+      "name" : "ctx_Ruta"
     } ]
   }, {
     "contextName" : "DEV",
