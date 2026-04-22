@@ -1183,6 +1183,69 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_YFJhsD5VEfGbf-fKyEf1hA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_5_LnMD2lEfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_NdKPkD22EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_hjtuID22EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_qr9FAD22EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uVf0AD21EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_xFy78D22EfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5_LnMD2lEfGzTdBr8BSnuQ - PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_NdKPkD22EfGzTdBr8BSnuQ - COLOR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hjtuID22EfGzTdBr8BSnuQ - MODELO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_qr9FAD22EfGzTdBr8BSnuQ - GRUPO_PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_uVf0AD21EfGzTdBr8BSnuQ - MARCA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xFy78D22EfGzTdBr8BSnuQ - SUB_GRUPO_PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_YN7LIDnfEfGPAbobaipRvQ",
     "version" : "0.1",
     "type" : "job"
@@ -1592,6 +1655,41 @@
     "type" : "property"
   }, {
     "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ts5dwD3HEfGzTdBr8BSnuQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_LW9xQDzIEfG9T40udlz7DA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_7fpb8D3HEfGzTdBr8BSnuQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dIoRsDp7EfGzmqS653tNVA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_7fpb8D3HEfGzTdBr8BSnuQ - LOCAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_MG6rIDnhEfGCB5naSisa5A - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dIoRsDp7EfGzmqS653tNVA - FACTURAS_IC",
     "version" : "Latest",
     "type" : "schema"
   } ]
