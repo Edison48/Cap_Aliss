@@ -1,0 +1,18 @@
+{
+  "itemId" : "_xJpRcD3HEfGCqoUANcWqxg",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_E2-PADzIEfGCqoUANcWqxg",
+    "parameterList" : [ {
+      "id" : "_E3hooTzIEfGCqoUANcWqxg",
+      "name" : "ctx_ruta"
+    } ]
+  }, {
+    "contextName" : "PRO",
+    "repoId" : "_E2-PADzIEfGCqoUANcWqxg",
+    "parameterList" : [ {
+      "id" : "_PqW5ETzIEfGCqoUANcWqxg",
+      "name" : "ctx_ruta"
+    } ]
+  } ]
+}
