@@ -1303,6 +1303,69 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_ZnOYcD5VEfGmpvCqeKevMg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_r8HsQDzNEfGvRZlP65UcDg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_01IkMD2lEfGeG-i89z4bow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_05CkED22EfGeG-i89z4bow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ChoWID22EfGeG-i89z4bow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Pi50ED22EfGeG-i89z4bow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZfHdEDpqEfGLXfrMAOiJ8w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_cU_mgD22EfGeG-i89z4bow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rF0WgD22EfGeG-i89z4bow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_01IkMD2lEfGeG-i89z4bow - PRODUCTO_2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_05CkED22EfGeG-i89z4bow - SUB_GRUPO_PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ChoWID22EfGeG-i89z4bow - MARCA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Pi50ED22EfGeG-i89z4bow - COLOR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_cU_mgD22EfGeG-i89z4bow - MODELO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rF0WgD22EfGeG-i89z4bow - GRUPO_PRODUCTO",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "__bPBQDzWEfG6ydnbd6Eghg",
     "version" : "0.1",
     "type" : "job"
