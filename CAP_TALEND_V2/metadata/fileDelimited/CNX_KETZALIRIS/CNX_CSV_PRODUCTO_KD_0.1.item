@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_01V_kD2lEfGeG-i89z4bow" name="CNX_CSV_PRODUCTO_KD" dataPackage="_01V_kT2lEfGeG-i89z4bow" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Aliss/DEV/BaseDeDatosERP/PRODUCTO.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <TalendMetadata:DelimitedFileConnection xmi:id="_01V_kD2lEfGeG-i89z4bow" name="CNX_CSV_PRODUCTO_KD" id="_01IkMD2lEfGeG-i89z4bow" dataPackage="_01V_kT2lEfGeG-i89z4bow _zP_F4D5WEfGmpvCqeKevMg" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Aliss/DEV/BaseDeDatosERP/PRODUCTO.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom ANSI"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_01V_kT2lEfGeG-i89z4bow" name="default" dataManager="_01V_kD2lEfGeG-i89z4bow">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_01V_kj2lEfGeG-i89z4bow" id="_gALHgD2lEfGeG-i89z4bow" label="PRODUCTO">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_01V_kj2lEfGeG-i89z4bow" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_gALHgD2lEfGeG-i89z4bow" label="PRODUCTO">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_01V_kz2lEfGeG-i89z4bow" label="COD_PRODUCTO_DES_PRODUCTO_COD_MARCA_COD_MODELO_COD_COLOR_COD_SUBGRUPO_COD_GRUPO" length="42" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zP_F4D5WEfGmpvCqeKevMg" name="default" dataManager="_01V_kD2lEfGeG-i89z4bow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zP_F4T5WEfGmpvCqeKevMg" id="_xDZ5kD5WEfGmpvCqeKevMg" label="PRODUCTO_2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F4j5WEfGmpvCqeKevMg" label="COD_PRODUCTO" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F4z5WEfGmpvCqeKevMg" label="DES_PRODUCTO" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F5D5WEfGmpvCqeKevMg" label="COD_MARCA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F5T5WEfGmpvCqeKevMg" label="COD_MODELO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F5j5WEfGmpvCqeKevMg" label="COD_COLOR" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F5z5WEfGmpvCqeKevMg" label="COD_SUBGRUPO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zP_F6D5WEfGmpvCqeKevMg" label="COD_GRUPO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>

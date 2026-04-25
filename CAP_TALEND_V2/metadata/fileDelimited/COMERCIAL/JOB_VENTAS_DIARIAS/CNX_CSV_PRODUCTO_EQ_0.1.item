@@ -4,7 +4,7 @@
   <orgomg.cwm.resource.record:RecordFile xmi:id="_1Mvy8T2lEfGvRZlP65UcDg" name="default" dataManager="_1Mvy8D2lEfGvRZlP65UcDg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1Mvy8j2lEfGvRZlP65UcDg" id="_aHk8cD2lEfGvRZlP65UcDg" label="PRODUCTO">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1Mvy8z2lEfGvRZlP65UcDg" label="COD_PRODUCTO" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1Mvy9D2lEfGvRZlP65UcDg" label="DES_PRODUCTO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1Mvy9D2lEfGvRZlP65UcDg" label="DES_PRODUCTO" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1Mvy9T2lEfGvRZlP65UcDg" label="COD_MARCA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1Mvy9j2lEfGvRZlP65UcDg" label="COD_MODELO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1Mvy9z2lEfGvRZlP65UcDg" label="COD_COLOR" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
